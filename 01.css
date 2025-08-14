@@ -1,0 +1,61 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(54, 2, 95);
+    background: url(imagens/bg-desktop.jpg) no-repeat top center/cover;
+    height: 100vh;
+
+}
+h3 {
+    color: rgb(151, 168, 40);
+}
+ol {
+    list-style: none;
+    text-align: center;
+}
+img {
+   display: flex;
+    width: 200px;;
+    height: 190px;;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(123, 126, 24);
+}
+a{
+    text-decoration: none;;
+}
+.redesocial
+{
+    width: 100px;
+    height: 90px;
+}
+.gtly
+{
+    display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.ETEC
+{
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    left:0%;
+
+}
+img {
+   display: flex;
+    width: 200px;;
+    height: 190px;;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(123, 126, 24);
+  }
+  .foto
+  {
+        display: block;
+  margin: 0 auto;
+  }
