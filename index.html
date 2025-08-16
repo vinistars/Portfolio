@@ -2,50 +2,73 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <script defer src = "script.js"></script>
-        <link rel = "stylesheet" href= "01.css">
-    <title>Portfólio</title>
-</head>
-<body>
-    <div id ="container">
-        <div id = "profile">
-    <img class = "profile-photo" src="imagens/Github_logo.webp" alt="Descrição">
-    <p><h3>@Vinicius.Almeida</h3></p>
-    </div>
-        <div id= "switch" onclick="toggleMode()">
-    <button></button>
-     <span></span>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href= "01.css">
+ </head>
+ <body>
+    <div id="container">
+        <div id="profile">      
+            <img 
+                class="profile-photo" 
+                src="imagens/Captura de tela 2025-08-16 135618.png" 
+                alt="Foto de um jovem garoto com paletó e gravata"
+            />
+      
+            <p>@Vinicius.Almeida</p>
         </div>
-        <ol>
-            <li>
-                <a href = "/01.html">Um pouco sobre mim</a>
-            </li>
-            <li>
-                <a href = "/02.html">Baixar currículo</a>
-            </li>
-            <li>
-                <a href = "/03.html">Ver meu portfólio</a>
-            </li>
-            <li>
-                <a href = "/04.html" target="_blank">Projetos realizados</a>
-            </li>
-        </ol>
-<ol class = "gtly">
-     <li>
-                <a href = ""><img class = "redesocial"src  = "imagens/Github_logo.webp"></a>
-            </li>
-            <li>
-                <a href = ""><img class = "redesocial"  src = "imagens/linkedin_logo.png"></a>
-            </li>
-            <li>
-                <a href = ""></a>
-            </li>
-            <li>
-                <a href = ""></a>
-            </li>
-</ol> 
-<p class = "ETEC"> Agradecimentos especiais, ETEC de Embu</p>
-</body>
+
+        <div id="switch" onclick="toggleMode()">
+            <button></button>
+            <span></span>
+        </div>
+    
+    <ul>
+
+        <li>
+            <a href="">Um pouco mais sobre mim</a>
+        </li>
+        
+        <li>
+            <a href="">Baixar curriculo</a>
+        </li>
+        
+        <li>
+            <a href="https://github.com/ViniStars?tab=repositories">Ver meu portifólio</a>
+        </li>
+
+        <li>
+            <a href="">Projetos realizados</a>
+        </li>
+
+    </ul>
+
+   <div id="social-links">
+
+       <a href="https://github.com/ViniStars?tab=repositories" target="_blank">
+            <ion-icon name="logo-github"></ion-icon>
+       </a>
+
+        <a href="">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        
+        <a href="">
+            <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+
+        <a href="">
+            <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+
+    </div>
+
+    <footer> Feito com os alunos da 
+        <a href="https://www.etecdeembu.com.br/"> Etec de Embu</a>
+    </footer>
+
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+ </body>
 </html>
